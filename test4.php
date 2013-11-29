@@ -129,15 +129,7 @@ public function checkAll() {
 
 $form = new FormCheck();
  
-if(!$form->checkAll()) { 
-        exit();
-}
-else {
-        echo "<p><strong>Nome:</strong>" . $form->clean['name'] . "</p>";
-        echo "<p><strong>Cognome:</strong>" . $form->clean['lastname'] . "</p>";
-        echo "<p><strong>Mail:</strong>" . $form->clean['email'] . "</p>";
-        echo "<p><strong>Year:</strong>" . $form->clean['year'] . "</p>";
-}
+
 
 // aggiungo il campo password! senza cambiare nulla di quello gi fatto!!
 
